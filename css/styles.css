@@ -1,0 +1,10 @@
+/* TaxBridge custom styles. Tailwind + Phosphor icons load from CDN in index.html. */
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #1e293b; } /* Darker track for sidebar */
+::-webkit-scrollbar-thumb { background: #475569; border-radius: 10px; }
+
+.drag-active { border-color: #3b82f6 !important; background-color: #eff6ff !important; }
+
+.main-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; }
+.main-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
